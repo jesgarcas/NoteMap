@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NoteMap</string>
+    <string name="b_lista">List</string>
+    <string name="b_mapa">Map</string>
+    <string name="api_map">Must be changed</string>
+
+    <string name="campo_obligado">Name and Description are mandatory</string>
+
+    <string name="select">Select</string>
+    <string name="galeria">Gallery</string>
+    
+    <string name="SpinnerTipo">Select a tree</string>
+    <string name="crear">Add a place</string>
+    <string name="editar">Edit your place</string>
+    <string name="editado">Your place has been edit</string>
+    <string name="borrado">Your place has been deleted</string>
+    
+    <string name="b_guardar">Save</string>
+    <string name="b_crear">Add</string>
+    <string name="b_borrar">Delete</string>
+    <string name="b_volver">Back</string>
+    <string name="b_editar">Edit</string>
+    
+    <string name="t_foto">Photo:</string>
+    <string name="t_fecha">Date:</string>
+    <string name="t_nombre">Name:</string>
+    <string name="t_descripcion">Description:</string>
+    <string name="notas">Notes</string>
+    <string name="sin_notas">No notes presents, please add it from the map</string>
+    <string name="mapa">Map</string>
+    <string name="conceder_camara">The app was not allowed to get your camera. Hence, it cannot function properly. Please consider granting it this permission</string>
+    <string name="conceder_ubicacion">The app was not allowed to get your location. Hence, it cannot function properly. Please consider granting it this permission</string>
+    <string name="conceder_memoria">The app was not allowed to write to your storage. Hence, it cannot function properly. Please consider granting it this permission</string>
+    <string name="permiso_concedido">Permission granted.</string>
+
+</resources>

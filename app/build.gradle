@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('C:/Users/jesgarcas/.android/firma.jks')
+            keyAlias 'key0'
+            keyPassword 'CambiadaPorPrivacidad'
+            storePassword 'CambiadaPorPrivacidad'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "es.perotio.mapas"
+        minSdkVersion 14
+        targetSdkVersion 23
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+    dexOptions {
+        incremental false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+
+    compile 'com.google.android.gms:play-services-maps:10.2.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
+}

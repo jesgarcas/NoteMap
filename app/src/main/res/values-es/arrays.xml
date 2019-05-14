@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array
+		name="select_image">
+		<item>Camara</item>
+		<item>Ir a Galería</item>
+	</string-array>
+
+</resources>

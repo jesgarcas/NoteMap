@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NoteMap</string>
+    <string name="b_lista">Lista</string>
+    <string name="b_mapa">Mapa</string>
+    <string name="api_map">Ha de ser cambiado</string>
+
+    <string name="campo_obligado">Debes rellenar los campos</string>
+
+    <string name="select">Seleccionar</string>
+    <string name="galeria">Galeria</string>
+    
+    <string name="SpinnerTipo">Selecciona Arbol</string>
+    <string name="crear">Crea un Lugar</string>
+    <string name="editar">Edita tu Lugar</string>
+    <string name="editado">El lugar ha sido editado</string>
+    <string name="borrado">El lugar ha sido borrado</string>
+    
+    <string name="b_guardar">Guardar</string>
+    <string name="b_crear">Crear</string>
+    <string name="b_borrar">Eliminar</string>
+    <string name="b_volver">Volver</string>
+    <string name="b_editar">Editar</string>
+    
+    <string name="t_foto">Foto:</string>
+    <string name="t_fecha">Fecha:</string>
+    <string name="t_nombre">Nombre:</string>
+    <string name="t_descripcion">Descripción:</string>
+    <string name="notas">Notas</string>
+    <string name="sin_notas">No hay notas, añada alguna desde el mapa</string>
+    <string name="mapa">Mapa</string>
+    <string name="conceder_camara">Sin la camara, no podras añadir fotos a los puntos.</string>
+    <string name="conceder_ubicacion">Sin la ubicacion no funcionara correctamente el mapa.</string>
+    <string name="conceder_memoria">Sin el almacenamiento, no podra guardar puntos.</string>
+    <string name="permiso_concedido">Permiso concedido.</string>
+
+</resources>
